@@ -247,7 +247,7 @@ class Insurance:
         # Combobox to Search the records 
         self.var_com_search = StringVar()
         combo_search_box = ttk.Combobox(search_frame,textvariable=self.var_com_search, font='arial 11 bold', width=18, state='readonly')
-        combo_search_box['value']=('Select Option', 'Policy No', 'Agent ID')
+        combo_search_box['value']=('Select Option', 'policy_no', 'agent_id')
         combo_search_box.current(0)
         combo_search_box.grid(row=0, column=1, sticky=W, padx=5)
 
